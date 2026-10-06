@@ -1,298 +1,780 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Impact Quotient | Measure. Improve. Multiply Impact.</title>
-<meta name="description" content="Impact Quotient helps individuals, businesses and communities create measurable, meaningful and lasting impact. Impact measurement, ESG and sustainability support in Kenya and across Africa.">
-<meta property="og:title" content="Impact Quotient | Measure. Improve. Multiply Impact.">
-<meta property="og:description" content="Turn good intentions into real, measurable impact.">
-<meta property="og:type" content="website">
-<meta name="theme-color" content="#0d3b24">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%230d3b24'/%3E%3Ctext x='50' y='64' font-size='42' text-anchor='middle' fill='white' font-family='Arial' font-weight='700'%3EiQ%3C/text%3E%3C/svg%3E">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Impact Quotient","url":"https://impactquotient.org","email":"hello@impactquotient.org","description":"Impact measurement, ESG and sustainability consultancy."}</script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-:root{--pd:#0d3b24;--pg:#5a9e4b;--ag:#8bc34a;--td:#1a1a1a;--tm:#555;--bg:#fff;--off:#f4f7f5;--bd:#e0e0e0;--sh:0 8px 24px rgba(13,59,36,.1);--r:16px;--t:all .3s ease}
-*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}
-body{font-family:Inter,system-ui,sans-serif;color:var(--td);background:var(--bg);line-height:1.6;overflow-x:hidden}
-a{text-decoration:none;color:inherit}ul{list-style:none}svg{display:block;max-width:100%}
-.c{max-width:1200px;margin:0 auto;padding:0 24px}.sp{padding:96px 0}
-h1,h2,h3,h4{color:var(--pd);line-height:1.2;font-weight:700}
-h1{font-size:clamp(2.4rem,5vw,3.9rem);letter-spacing:-.02em}h2{font-size:clamp(1.9rem,4vw,2.8rem);margin-bottom:1rem}h3{font-size:1.4rem;margin-bottom:.6rem}
-p{color:var(--tm);margin-bottom:1.2rem}
-.sub{display:inline-block;font-weight:600;color:var(--pg);text-transform:uppercase;letter-spacing:.1em;font-size:.82rem;margin-bottom:14px}
-.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 26px;font:600 1rem Inter,sans-serif;border-radius:50px;cursor:pointer;border:2px solid transparent;transition:var(--t);gap:8px}
-.bp{background:var(--pg);color:#fff}.bp:hover{background:var(--pd);transform:translateY(-2px)}
-.bo{border-color:var(--pd);color:var(--pd);background:none}.bo:hover{background:var(--pd);color:#fff}
-.bw{background:#fff;color:var(--pd)}.bw:hover{background:var(--ag);color:#fff}
-.bl{color:var(--pg);font-weight:600;background:none;border:0;cursor:pointer;font-family:inherit;font-size:.95rem}.bl:hover{color:var(--pd)}
-#prog{position:fixed;top:0;left:0;height:3px;background:var(--ag);width:0;z-index:2000}
-header{position:fixed;top:0;left:0;width:100%;z-index:1000;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:1px solid rgba(0,0,0,.05);padding-top:env(safe-area-inset-top,0)}
-.nav{display:flex;justify-content:space-between;align-items:center;height:76px}
-.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.4rem;color:var(--pd)}
-.li{width:40px;height:40px;background:var(--pd);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.1rem;position:relative}
-.li::after{content:'';position:absolute;bottom:-2px;right:-2px;width:14px;height:14px;background:var(--ag);border-radius:50%;border:2px solid #fff}
-.nl{display:flex;gap:28px;align-items:center}.nl a{font-weight:500;font-size:.93rem}.nl a.on:not(.btn){color:var(--pg);font-weight:700}
-.mt{display:none;background:none;border:0;cursor:pointer;padding:8px}.mt span{display:block;width:24px;height:2px;background:var(--pd);margin:6px 0}
-.hero{padding:140px 0 90px;background:linear-gradient(135deg,#fff 60%,var(--off));position:relative;overflow:hidden}
-.hg{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
-.hero h1 span{display:block;color:var(--ag)}.hb{display:flex;gap:14px;margin-top:28px;flex-wrap:wrap}
-.hv{height:460px;display:flex;align-items:center;justify-content:center;position:relative}
-.globe{width:380px;height:380px;border-radius:50%;background:radial-gradient(circle at 30% 30%,var(--pg),var(--pd));box-shadow:var(--sh);animation:fl 6s ease-in-out infinite;display:flex;align-items:center;justify-content:center;color:#fff;text-align:center}
-.globe b{font-size:4.5rem;display:block;line-height:1}.globe small{opacity:.85;letter-spacing:.1em;text-transform:uppercase;font-size:.8rem}
-.fc{position:absolute;background:#fff;padding:16px 20px;border-radius:var(--r);box-shadow:var(--sh);animation:fl 4s ease-in-out infinite;font-size:.9rem}.fc strong{display:block;color:var(--pd)}
-.fc.a{top:16%;left:-4%}.fc.b{bottom:16%;right:-2%;animation-delay:2s}
-@keyframes fl{50%{transform:translateY(-14px)}}
-.sh{max-width:700px;margin:0 auto 56px;text-align:center}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:28px}
-.card{background:var(--off);padding:36px 28px;border-radius:var(--r);border:1px solid transparent;transition:var(--t)}
-.card:hover{transform:translateY(-8px);box-shadow:var(--sh);border-color:var(--ag);background:#fff}
-.ic{width:56px;height:56px;background:#fff;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;margin-bottom:20px;box-shadow:0 2px 8px rgba(13,59,36,.08)}
-.stats{background:var(--pd);padding:72px 0}.sg{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;text-align:center}
-.sg h3{font-size:3.4rem;color:var(--ag);font-weight:800;margin:0}.sg p{color:rgba(255,255,255,.8);margin:0}
-.off{background:var(--off)}
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
-.step{background:#fff;padding:30px 22px;border-radius:var(--r);text-align:center;transition:var(--t);box-shadow:0 2px 8px rgba(13,59,36,.06)}.step:hover{transform:translateY(-5px)}
-.sn{width:40px;height:40px;background:var(--pd);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;margin:0 auto 16px}
-.info{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:48px;background:#fff;padding:36px;border-radius:var(--r)}.info h4{color:var(--pg);margin-bottom:6px}
-.rep{position:relative;display:flex;flex-direction:column;background:#fff;border:1px solid var(--bd)}.rep p{flex-grow:1}
-.badge{position:absolute;top:18px;right:18px;background:var(--off);color:var(--pd);padding:5px 12px;border-radius:20px;font-size:.72rem;font-weight:700;text-transform:uppercase}
-.sb{background:var(--pd);border-radius:24px;padding:52px 40px;display:flex;align-items:center;justify-content:space-between;gap:36px;margin-top:48px}
-.sb h3{color:#fff;font-size:1.9rem}.sb p{color:rgba(255,255,255,.8);margin:0}.sf{display:flex;gap:10px;flex:1;max-width:480px}
-.fcn{width:100%;padding:14px 16px;border:1px solid var(--bd);border-radius:8px;font:inherit;background:#fff}.fcn:focus{outline:none;border-color:var(--pg);box-shadow:0 0 0 3px rgba(90,158,75,.15)}
-.sf .fcn{border-radius:50px;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.25);color:#fff}.sf .fcn::placeholder{color:rgba(255,255,255,.6)}
-.iq{background:linear-gradient(135deg,var(--pd),#1a5c3a);color:#fff;border-radius:24px;padding:64px 40px;margin:0 auto 80px;max-width:900px;text-align:center}
-.iq h2{color:#fff}.iq p{color:rgba(255,255,255,.8)}
-.sl{text-align:left;margin:14px 0}.sl label{display:flex;justify-content:space-between;font-weight:600;margin-bottom:6px}
-.sl input{width:100%;accent-color:var(--ag)}
-#res{display:none;margin-top:28px;background:rgba(255,255,255,.1);border-radius:var(--r);padding:28px}
-.big{font-size:4rem;font-weight:800;color:var(--ag);line-height:1}
-.bar{height:8px;background:rgba(255,255,255,.2);border-radius:4px;margin:6px 0 12px;overflow:hidden}.bar i{display:block;height:100%;background:var(--ag);width:0;transition:width .8s}
-.faq{max-width:800px;margin:0 auto}.fi{border-bottom:1px solid var(--bd)}
-.fq{width:100%;display:flex;justify-content:space-between;align-items:center;background:none;border:0;cursor:pointer;font:600 1.08rem Inter,sans-serif;color:var(--pd);padding:22px 0;text-align:left}
-.fq span{transition:transform .3s;font-size:1.5rem}.fi.on .fq span{transform:rotate(45deg)}
-.fa{max-height:0;overflow:hidden;transition:max-height .3s}.fi.on .fa{max-height:240px}
-.cg{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
-.cf{background:#fff;padding:36px;border-radius:var(--r);box-shadow:var(--sh)}.fg{margin-bottom:18px}.fg label{display:block;font-weight:500;margin-bottom:6px;font-size:.9rem}
-textarea.fcn{min-height:110px;resize:vertical}
-.cm{display:flex;align-items:center;gap:16px;margin-bottom:18px;padding:18px;background:#fff;border-radius:8px;transition:var(--t)}.cm:hover{transform:translateX(5px)}
-footer{background:var(--pd);color:#fff;padding:72px 0 28px}.fgr{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:36px;margin-bottom:48px}
-footer p,footer li a{color:rgba(255,255,255,.7)}footer h4{color:#fff;margin-bottom:18px}footer li{margin-bottom:10px}footer li a:hover{color:var(--ag)}
-.fb{border-top:1px solid rgba(255,255,255,.1);padding-top:26px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}.fb p{margin:0;font-size:.9rem}
-.fi2{opacity:0;transform:translateY(28px);transition:opacity .6s,transform .6s}.fi2.v{opacity:1;transform:none}
-/* modal */
-.md{position:fixed;inset:0;background:rgba(13,59,36,.7);display:none;align-items:center;justify-content:center;z-index:3000;padding:20px}.md.o{display:flex}
-.mb{background:#fff;border-radius:20px;max-width:640px;width:100%;max-height:85vh;overflow:auto;padding:36px;position:relative}
-.mb ul{margin:0 0 16px 18px;list-style:disc;color:var(--tm)}.mb li{margin-bottom:8px}
-.x{position:absolute;top:14px;right:18px;background:none;border:0;font-size:1.8rem;cursor:pointer;color:var(--pd)}
-/* assistant */
-#fab{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom,0));width:58px;height:58px;border-radius:50%;background:var(--pg);color:#fff;border:0;font-size:1.6rem;cursor:pointer;box-shadow:var(--sh);z-index:2500}
-#bot{position:fixed;right:20px;bottom:calc(90px + env(safe-area-inset-bottom,0));width:340px;max-width:calc(100vw - 40px);height:460px;max-height:70vh;background:#fff;border-radius:18px;box-shadow:0 16px 48px rgba(13,59,36,.25);display:none;flex-direction:column;overflow:hidden;z-index:2500}#bot.o{display:flex}
-#bot header{position:static;background:var(--pd);color:#fff;padding:14px 18px;font-weight:600;display:flex;justify-content:space-between;backdrop-filter:none}
-#msgs{flex:1;overflow:auto;padding:14px;display:flex;flex-direction:column;gap:10px;background:var(--off)}
-.m{padding:10px 14px;border-radius:14px;max-width:85%;font-size:.92rem;line-height:1.45}.m.b{background:#fff;align-self:flex-start}.m.u{background:var(--pg);color:#fff;align-self:flex-end}
-.q{display:flex;gap:6px;flex-wrap:wrap;padding:8px 12px;border-top:1px solid var(--bd)}.q button{border:1px solid var(--pg);background:#fff;color:var(--pg);border-radius:20px;padding:4px 12px;font-size:.8rem;cursor:pointer}
-#bf{display:flex;border-top:1px solid var(--bd)}#bf input{flex:1;border:0;padding:14px;font:inherit;outline:none}#bf button{border:0;background:none;color:var(--pg);font-weight:700;padding:0 16px;cursor:pointer}
-#top{position:fixed;left:20px;bottom:calc(20px + env(safe-area-inset-bottom,0));width:44px;height:44px;border-radius:50%;background:var(--pd);color:#fff;border:0;cursor:pointer;display:none;z-index:2000}
-#toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:var(--pd);color:#fff;padding:12px 22px;border-radius:30px;display:none;z-index:4000;font-size:.92rem}
-@media(max-width:992px){.hg,.cg,.info{grid-template-columns:1fr}.hero{text-align:center}.hv{display:none}.hb{justify-content:center}.steps,.sg{grid-template-columns:1fr 1fr}.sb{flex-direction:column;text-align:center}.sf{width:100%;max-width:100%}.fgr{grid-template-columns:1fr 1fr}}
-@media(max-width:768px){.nl{display:none;position:absolute;top:76px;left:0;width:100%;background:#fff;flex-direction:column;padding:24px;box-shadow:var(--sh);gap:18px}.nl.on{display:flex}.mt{display:block}.steps,.fgr{grid-template-columns:1fr}.sp{padding:60px 0}.sf{flex-direction:column}}
-@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.fi2{opacity:1;transform:none}}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact Quotient | Measure. Improve. Multiply Impact.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        /* --- CSS VARIABLES & THEME --- */
+        :root {
+            --primary-dark: #0d3b24;
+            --primary-green: #5a9e4b;
+            --accent-green: #8bc34a;
+            --text-dark: #111814;
+            --text-muted: #5c6b62;
+            --bg-light: #ffffff;
+            --bg-off: #f4f7f5;
+            --border-color: #e2e8e4;
+            --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        /* --- RESET & BASE --- */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; cursor: none; }
+        body { 
+            font-family: 'Inter', sans-serif; 
+            color: var(--text-dark); 
+            background-color: var(--bg-light); 
+            line-height: 1.6; 
+            overflow-x: hidden; 
+            cursor: none;
+        }
+        a, button { cursor: none; }
+        ul { list-style: none; }
+        .container { max-width: 1240px; margin: 0 auto; padding: 0 24px; }
+        .section-padding { padding: 120px 0; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.1; color: var(--primary-dark); letter-spacing: -0.02em; }
+        h1 { font-size: clamp(3rem, 6vw, 5rem); }
+        h2 { font-size: clamp(2.2rem, 4vw, 3.5rem); margin-bottom: 1.5rem; }
+        h3 { font-size: 1.5rem; margin-bottom: 1rem; }
+        p { color: var(--text-muted); margin-bottom: 1.5rem; font-size: 1.1rem; line-height: 1.7; }
+        .text-accent { color: var(--accent-green); }
+        .text-primary { color: var(--primary-green); }
+
+        /* --- CUSTOM CURSOR --- */
+        .cursor-dot, .cursor-outline {
+            position: fixed; top: 0; left: 0; border-radius: 50%; pointer-events: none; z-index: 9999;
+            transform: translate(-50%, -50%);
+        }
+        .cursor-dot { width: 8px; height: 8px; background: var(--accent-green); transition: width 0.3s, height 0.3s, background 0.3s; }
+        .cursor-outline { width: 40px; height: 40px; border: 1.5px solid var(--primary-green); transition: transform 0.15s ease-out, width 0.3s, height 0.3s, border-color 0.3s; }
+        .cursor-outline.hover { width: 60px; height: 60px; border-color: var(--accent-green); background: rgba(139, 195, 74, 0.1); }
+
+        /* --- SCROLL PROGRESS BAR --- */
+        .scroll-progress {
+            position: fixed; top: 0; left: 0; height: 3px; background: var(--accent-green); z-index: 1001; width: 0%;
+            box-shadow: 0 0 10px var(--accent-green);
+        }
+
+        /* --- PURE CSS ICONS (No AI/SVG) --- */
+        .css-icon { width: 48px; height: 48px; position: relative; display: inline-block; }
+        
+        /* Icon: Target (Measure) */
+        .icon-target { border: 3px solid var(--primary-green); border-radius: 50%; }
+        .icon-target::before { content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 20px; height: 20px; border: 3px solid var(--accent-green); border-radius: 50%; }
+        .icon-target::after { content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 6px; height: 6px; background: var(--primary-dark); border-radius: 50%; }
+
+        /* Icon: Chart (Analyze) */
+        .icon-chart { border-bottom: 3px solid var(--primary-green); border-left: 3px solid var(--primary-green); }
+        .icon-chart::before { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 0; border-bottom: 24px solid var(--accent-green); border-right: 24px solid transparent; }
+        .icon-chart::after { content: ''; position: absolute; top: 4px; right: 4px; width: 12px; height: 12px; border-top: 3px solid var(--primary-dark); border-right: 3px solid var(--primary-dark); transform: rotate(45deg); }
+
+        /* Icon: Leaf (Impact) */
+        .icon-leaf { background: var(--primary-green); border-radius: 0 50% 50% 50%; transform: rotate(-45deg); }
+        .icon-leaf::before { content: ''; position: absolute; bottom: 0; left: 50%; width: 2px; height: 30px; background: var(--bg-light); transform: translateX(-50%) rotate(45deg); }
+
+        /* Icon: Layers (Scale) */
+        .icon-layers { border: 3px solid var(--primary-green); border-radius: 4px; transform: rotate(15deg); }
+        .icon-layers::before { content: ''; position: absolute; top: -8px; left: -8px; width: 100%; height: 100%; border: 3px solid var(--accent-green); border-radius: 4px; z-index: -1; }
+
+        /* --- BUTTONS --- */
+        .btn { 
+            display: inline-flex; align-items: center; justify-content: center; padding: 16px 32px; font-weight: 600; font-size: 1rem; 
+            border-radius: 50px; transition: var(--transition); border: 2px solid transparent; gap: 8px; position: relative; overflow: hidden;
+            font-family: 'Space Grotesk', sans-serif; letter-spacing: 0.02em;
+        }
+        .btn-primary { background-color: var(--primary-dark); color: white; }
+        .btn-primary:hover { background-color: var(--accent-green); transform: translateY(-3px); box-shadow: 0 10px 30px rgba(139, 195, 74, 0.3); }
+        .btn-outline { background-color: transparent; color: var(--primary-dark); border-color: var(--primary-dark); }
+        .btn-outline:hover { background-color: var(--primary-dark); color: white; transform: translateY(-3px); }
+
+        /* --- HEADER & NAV --- */
+        header { 
+            position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; 
+            background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(20px); 
+            border-bottom: 1px solid rgba(0,0,0,0.05); transition: var(--transition);
+        }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; height: 80px; }
+        .logo { display: flex; align-items: center; gap: 12px; font-family: 'Space Grotesk', sans-serif; font-weight: 800; font-size: 1.5rem; color: var(--primary-dark); }
+        .logo-mark { 
+            width: 44px; height: 44px; background: var(--primary-dark); border-radius: 12px; 
+            display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2rem; 
+            position: relative; transition: var(--transition);
+        }
+        .logo-mark::after { 
+            content: ''; position: absolute; bottom: -4px; right: -4px; width: 16px; height: 16px; 
+            background: var(--accent-green); border-radius: 50%; border: 3px solid white; 
+        }
+        .nav-links { display: flex; gap: 32px; align-items: center; }
+        .nav-links a { font-weight: 500; font-size: 0.95rem; color: var(--text-dark); position: relative; padding: 4px 0; }
+        .nav-links a::after { content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background: var(--accent-green); transition: var(--transition); }
+        .nav-links a:hover::after { width: 100%; }
+
+        /* --- HERO SECTION --- */
+        .hero { 
+            padding-top: 160px; padding-bottom: 120px; position: relative; overflow: hidden; 
+            background: var(--bg-light);
+        }
+        /* Dynamic Grid Background */
+        .hero::before {
+            content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            background-image: 
+                linear-gradient(rgba(13, 59, 36, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(13, 59, 36, 0.03) 1px, transparent 1px);
+            background-size: 60px 60px;
+            mask-image: radial-gradient(circle at 50% 50%, black 20%, transparent 80%);
+            z-index: 0;
+        }
+        .hero-content { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 60px; align-items: center; position: relative; z-index: 1; }
+        .hero-text .subtitle { 
+            display: inline-flex; align-items: center; gap: 8px; font-weight: 600; color: var(--primary-green); 
+            text-transform: uppercase; letter-spacing: 0.15em; font-size: 0.8rem; margin-bottom: 24px;
+            background: rgba(90, 158, 75, 0.1); padding: 8px 16px; border-radius: 30px;
+        }
+        .hero-text .subtitle::before { content: ''; width: 8px; height: 8px; background: var(--accent-green); border-radius: 50%; animation: pulse-dot 2s infinite; }
+        .hero-text h1 { margin-bottom: 32px; }
+        .hero-text h1 span { display: inline-block; color: var(--accent-green); position: relative; }
+        .hero-text h1 span::after { 
+            content: ''; position: absolute; bottom: 5px; left: 0; width: 100%; height: 12px; 
+            background: rgba(139, 195, 74, 0.2); z-index: -1; border-radius: 4px;
+        }
+        .hero-buttons { display: flex; gap: 16px; margin-top: 40px; flex-wrap: wrap; }
+
+        /* Hero Visual - Pure CSS Data Viz */
+        .hero-visual { position: relative; height: 500px; display: flex; align-items: center; justify-content: center; }
+        .data-viz-container { position: relative; width: 350px; height: 350px; }
+        .viz-ring { 
+            position: absolute; border-radius: 50%; border: 2px solid var(--border-color); 
+            top: 50%; left: 50%; transform: translate(-50%, -50%);
+        }
+        .viz-ring-1 { width: 100%; height: 100%; border-color: rgba(90, 158, 75, 0.2); animation: spin 20s linear infinite; }
+        .viz-ring-2 { width: 70%; height: 70%; border-color: rgba(139, 195, 74, 0.3); border-style: dashed; animation: spin-reverse 15s linear infinite; }
+        .viz-ring-3 { width: 40%; height: 40%; background: var(--primary-dark); border: none; display: flex; align-items: center; justify-content: center; color: white; font-family: 'Space Grotesk'; font-size: 2rem; font-weight: 700; box-shadow: 0 20px 50px rgba(13, 59, 36, 0.3); }
+        .viz-dot { 
+            position: absolute; width: 16px; height: 16px; background: var(--accent-green); border-radius: 50%; 
+            border: 4px solid white; box-shadow: 0 4px 15px rgba(139, 195, 74, 0.5);
+        }
+        .viz-dot-1 { top: 0; left: 50%; transform: translate(-50%, -50%); animation: float 3s ease-in-out infinite; }
+        .viz-dot-2 { bottom: 15%; right: 0; transform: translate(50%, 50%); animation: float 4s ease-in-out infinite 1s; }
+        .viz-dot-3 { bottom: 15%; left: 0; transform: translate(-50%, 50%); animation: float 3.5s ease-in-out infinite 0.5s; }
+
+        .floating-stat { 
+            position: absolute; background: white; padding: 16px 24px; border-radius: 16px; 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.08); display: flex; align-items: center; gap: 16px; 
+            animation: float 5s ease-in-out infinite; border: 1px solid var(--border-color);
+        }
+        .floating-stat.stat-1 { top: 10%; left: -20px; animation-delay: 0s; }
+        .floating-stat.stat-2 { bottom: 10%; right: -20px; animation-delay: 2s; }
+        .stat-icon { width: 40px; height: 40px; background: var(--bg-off); border-radius: 10px; display: flex; align-items: center; justify-content: center; }
+        .stat-icon .css-icon { width: 24px; height: 24px; transform: scale(0.6); }
+        .stat-info strong { display: block; font-size: 1.2rem; color: var(--primary-dark); font-family: 'Space Grotesk'; }
+        .stat-info span { font-size: 0.8rem; color: var(--text-muted); }
+
+        @keyframes spin { 100% { transform: translate(-50%, -50%) rotate(360deg); } }
+        @keyframes spin-reverse { 100% { transform: translate(-50%, -50%) rotate(-360deg); } }
+        @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-15px); } }
+        @keyframes pulse-dot { 0% { opacity: 1; transform: scale(1); } 50% { opacity: 0.5; transform: scale(1.5); } 100% { opacity: 1; transform: scale(1); } }
+
+        /* --- FEATURES --- */
+        .features { background: var(--bg-off); position: relative; }
+        .section-header { max-width: 700px; margin: 0 auto 80px; text-align: center; }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 32px; }
+        .feature-card { 
+            background: white; padding: 48px 32px; border-radius: 24px; transition: var(--transition); 
+            border: 1px solid var(--border-color); position: relative; overflow: hidden;
+        }
+        .feature-card::before { 
+            content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 4px; 
+            background: var(--accent-green); transform: scaleX(0); transform-origin: left; transition: var(--transition);
+        }
+        .feature-card:hover { transform: translateY(-10px); box-shadow: 0 30px 60px rgba(13, 59, 36, 0.08); border-color: transparent; }
+        .feature-card:hover::before { transform: scaleX(1); }
+        .feature-icon-wrap { margin-bottom: 32px; }
+        .feature-icon-wrap .css-icon { transition: var(--transition); }
+        .feature-card:hover .icon-target { border-color: var(--accent-green); }
+        .feature-card:hover .icon-target::before { border-color: var(--primary-dark); }
+        .feature-card:hover .icon-chart { border-color: var(--accent-green); }
+        .feature-card:hover .icon-leaf { background: var(--accent-green); }
+        .feature-card:hover .icon-layers { border-color: var(--accent-green); }
+
+        /* --- STATS --- */
+        .stats { background: var(--primary-dark); color: white; padding: 100px 0; position: relative; overflow: hidden; }
+        /* Animated background lines */
+        .stats::before {
+            content: ''; position: absolute; top: 0; left: 0; width: 200%; height: 100%;
+            background: repeating-linear-gradient(45deg, transparent, transparent 40px, rgba(255,255,255,0.02) 40px, rgba(255,255,255,0.02) 42px);
+            animation: slide-bg 20s linear infinite;
+        }
+        @keyframes slide-bg { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+        .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; text-align: center; position: relative; z-index: 1; }
+        .stat-item h3 { font-size: 4rem; color: var(--accent-green); margin-bottom: 8px; font-weight: 800; }
+        .stat-item p { color: rgba(255,255,255,0.7); font-size: 1.1rem; margin: 0; }
+
+        /* --- FRAMEWORK --- */
+        .framework { background: var(--bg-light); }
+        .framework-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-top: 60px; }
+        .step-card { 
+            background: var(--bg-off); padding: 40px 24px; border-radius: 24px; text-align: center; 
+            transition: var(--transition); position: relative;
+        }
+        .step-card:hover { background: white; box-shadow: 0 20px 50px rgba(0,0,0,0.05); transform: translateY(-5px); }
+        .step-number { 
+            width: 48px; height: 48px; background: var(--primary-dark); color: white; border-radius: 50%; 
+            display: flex; align-items: center; justify-content: center; font-weight: 700; margin: 0 auto 24px; 
+            font-family: 'Space Grotesk'; font-size: 1.2rem; transition: var(--transition);
+        }
+        .step-card:hover .step-number { background: var(--accent-green); transform: scale(1.1); }
+
+        /* --- REPORTS --- */
+        .reports { background: var(--bg-off); }
+        .reports-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-bottom: 60px; }
+        .report-card { 
+            background: white; padding: 40px 32px; border-radius: 24px; transition: var(--transition); 
+            position: relative; overflow: hidden; border: 1px solid var(--border-color); display: flex; flex-direction: column;
+        }
+        .report-card:hover { transform: translateY(-10px); box-shadow: 0 30px 60px rgba(13, 59, 36, 0.1); border-color: var(--accent-green); }
+        .report-badge { 
+            position: absolute; top: 24px; right: 24px; background: var(--bg-off); color: var(--primary-dark); 
+            padding: 6px 12px; border-radius: 20px; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;
+        }
+        .report-icon-wrap { margin-bottom: 24px; }
+        .report-card:hover .report-icon-wrap .css-icon { transform: scale(1.1); }
+        .report-card p { flex-grow: 1; }
+        .btn-link { color: var(--primary-green); font-weight: 600; font-size: 0.95rem; display: inline-flex; align-items: center; gap: 4px; transition: var(--transition); }
+        .btn-link:hover { color: var(--primary-dark); gap: 12px; }
+
+        .subscribe-box { 
+            background: var(--primary-dark); border-radius: 32px; padding: 60px; display: flex; align-items: center; 
+            justify-content: space-between; gap: 40px; position: relative; overflow: hidden;
+        }
+        .subscribe-box::before { 
+            content: ''; position: absolute; top: -50%; right: -10%; width: 500px; height: 500px; 
+            background: radial-gradient(circle, rgba(139, 195, 74, 0.15) 0%, transparent 70%); border-radius: 50%;
+            animation: pulse-bg 4s ease-in-out infinite;
+        }
+        @keyframes pulse-bg { 0%, 100% { transform: scale(1); opacity: 0.5; } 50% { transform: scale(1.1); opacity: 1; } }
+        .subscribe-content { flex: 1; position: relative; z-index: 1; }
+        .subscribe-content h3 { color: white; font-size: 2.2rem; margin-bottom: 12px; }
+        .subscribe-content p { color: rgba(255,255,255,0.7); margin: 0; }
+        .subscribe-form { flex: 1; display: flex; gap: 12px; position: relative; z-index: 1; max-width: 500px; }
+        .subscribe-form .form-control { 
+            flex: 1; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; 
+            padding: 18px 24px; border-radius: 50px; font-family: 'Inter'; font-size: 1rem; transition: var(--transition);
+        }
+        .subscribe-form .form-control::placeholder { color: rgba(255,255,255,0.5); }
+        .subscribe-form .form-control:focus { outline: none; border-color: var(--accent-green); background: rgba(255,255,255,0.15); }
+
+        /* --- IQ TOOL --- */
+        .iq-tool { 
+            background: linear-gradient(135deg, var(--primary-dark) 0%, #1a5c3a 100%); color: white; 
+            border-radius: 32px; padding: 80px 40px; text-align: center; margin: 60px 0; position: relative; overflow: hidden;
+        }
+        .iq-tool h2 { color: white; }
+        .iq-tool p { color: rgba(255,255,255,0.7); max-width: 600px; margin: 0 auto 40px; }
+        .iq-dimensions { display: flex; justify-content: center; gap: 40px; margin: 40px 0; flex-wrap: wrap; }
+        .dim-item { display: flex; flex-direction: column; align-items: center; gap: 16px; }
+        .dim-circle { 
+            width: 90px; height: 90px; border-radius: 50%; border: 2px solid rgba(255,255,255,0.2); 
+            display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk';
+            font-size: 1.5rem; font-weight: 700; transition: var(--transition); cursor: none; color: white;
+            position: relative;
+        }
+        .dim-circle::after { 
+            content: ''; position: absolute; inset: -6px; border-radius: 50%; border: 1px dashed rgba(255,255,255,0.2); 
+            animation: spin 10s linear infinite;
+        }
+        .dim-circle:hover { border-color: var(--accent-green); background: rgba(139, 195, 74, 0.1); transform: scale(1.1); }
+
+        /* --- FAQ --- */
+        .faq-container { max-width: 800px; margin: 0 auto; }
+        .faq-item { border-bottom: 1px solid var(--border-color); padding: 24px 0; }
+        .faq-question { 
+            display: flex; justify-content: space-between; align-items: center; cursor: none; 
+            font-weight: 600; font-size: 1.2rem; color: var(--primary-dark); transition: var(--transition);
+            font-family: 'Space Grotesk';
+        }
+        .faq-question:hover { color: var(--primary-green); }
+        .faq-icon { width: 24px; height: 24px; transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1); position: relative; }
+        .faq-icon::before, .faq-icon::after { content: ''; position: absolute; background: currentColor; transition: var(--transition); }
+        .faq-icon::before { top: 50%; left: 0; width: 100%; height: 2px; transform: translateY(-50%); }
+        .faq-icon::after { left: 50%; top: 0; width: 2px; height: 100%; transform: translateX(-50%); }
+        .faq-item.active .faq-icon { transform: rotate(45deg); }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.5s cubic-bezier(0.16, 1, 0.3, 1), padding 0.5s; color: var(--text-muted); }
+        .faq-item.active .faq-answer { max-height: 200px; padding-top: 16px; }
+
+        /* --- CONTACT --- */
+        .contact { background: var(--bg-off); }
+        .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+        .contact-form { background: white; padding: 48px; border-radius: 24px; box-shadow: 0 20px 50px rgba(0,0,0,0.05); }
+        .form-group { margin-bottom: 24px; }
+        .form-group label { display: block; font-weight: 600; margin-bottom: 8px; font-size: 0.9rem; color: var(--primary-dark); font-family: 'Space Grotesk'; }
+        .form-control { 
+            width: 100%; padding: 16px 20px; border: 1px solid var(--border-color); border-radius: 12px; 
+            font-family: 'Inter'; font-size: 1rem; transition: var(--transition); background: var(--bg-light);
+        }
+        .form-control:focus { outline: none; border-color: var(--primary-green); box-shadow: 0 0 0 4px rgba(90, 158, 75, 0.1); }
+        textarea.form-control { resize: vertical; min-height: 120px; }
+        .contact-info h3 { margin-bottom: 24px; }
+        .contact-method { 
+            display: flex; align-items: center; gap: 20px; margin-bottom: 24px; padding: 24px; 
+            background: white; border-radius: 16px; transition: var(--transition); border: 1px solid var(--border-color);
+        }
+        .contact-method:hover { transform: translateX(10px); box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-color: var(--accent-green); }
+        .contact-method-icon { 
+            width: 56px; height: 56px; background: var(--bg-off); border-radius: 16px; 
+            display: flex; align-items: center; justify-content: center; color: var(--primary-green);
+        }
+        .contact-method-icon .css-icon { transform: scale(0.8); }
+
+        /* --- FOOTER --- */
+        footer { background: var(--primary-dark); color: white; padding: 100px 0 40px; }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 80px; }
+        .footer-brand p { color: rgba(255,255,255,0.6); margin-top: 24px; max-width: 300px; }
+        .footer-col h4 { color: white; margin-bottom: 24px; font-size: 1.1rem; font-family: 'Space Grotesk'; }
+        .footer-col ul li { margin-bottom: 16px; }
+        .footer-col ul li a { color: rgba(255,255,255,0.6); font-size: 0.95rem; transition: var(--transition); }
+        .footer-col ul li a:hover { color: var(--accent-green); padding-left: 5px; }
+        .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 40px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
+        .footer-bottom p { color: rgba(255,255,255,0.4); font-size: 0.9rem; margin: 0; }
+        .social-links { display: flex; gap: 16px; }
+        .social-links a { 
+            width: 44px; height: 44px; border-radius: 50%; background: rgba(255,255,255,0.1); 
+            display: flex; align-items: center; justify-content: center; color: white; transition: var(--transition);
+            font-weight: 700; font-family: 'Space Grotesk'; font-size: 0.8rem;
+        }
+        .social-links a:hover { background: var(--accent-green); transform: translateY(-5px); }
+
+        /* --- ANIMATIONS --- */
+        .reveal-text { overflow: hidden; display: block; }
+        .reveal-text span { display: inline-block; transform: translateY(100%); transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
+        .fade-in { opacity: 0; transform: translateY(40px); transition: opacity 0.8s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+        /* --- RESPONSIVE --- */
+        @media (max-width: 992px) {
+            .hero-content { grid-template-columns: 1fr; text-align: center; }
+            .hero-visual { display: none; }
+            .hero-buttons { justify-content: center; }
+            .framework-steps { grid-template-columns: repeat(2, 1fr); }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .reports-grid { grid-template-columns: 1fr; }
+            .subscribe-box { flex-direction: column; text-align: center; padding: 40px 24px; }
+            .subscribe-form { width: 100%; max-width: 100%; flex-direction: column; }
+            .contact-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 768px) {
+            html, body, a, button { cursor: auto; }
+            .cursor-dot, .cursor-outline { display: none; }
+            .nav-links { display: none; position: absolute; top: 80px; left: 0; width: 100%; background: white; flex-direction: column; padding: 24px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); gap: 20px; }
+            .nav-links.active { display: flex; }
+            .mobile-toggle { display: block; background: none; border: none; cursor: pointer; padding: 8px; }
+            .mobile-toggle span { display: block; width: 24px; height: 2px; background: var(--primary-dark); margin: 6px 0; transition: var(--transition); }
+            .framework-steps { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; }
+            .section-padding { padding: 80px 0; }
+        }
+    </style>
 </head>
 <body>
-<div id="prog"></div>
-<header><div class="c nav">
-<a href="#top0" class="logo"><div class="li">iQ</div>Impact Quotient</a>
-<nav class="nl" id="nl"><a href="#about">About</a><a href="#framework">Framework</a><a href="#services">Services</a><a href="#reports">Reports</a><a href="#score">Your IQ</a><a href="#faq">FAQ</a><a href="#contact" class="btn bp" style="padding:10px 22px;font-size:.9rem">Start Your Impact</a></nav>
-<button class="mt" id="mt" aria-label="Menu"><span></span><span></span><span></span></button>
-</div></header>
 
-<section class="hero" id="top0"><div class="c hg">
-<div class="fi2"><span class="sub">Purpose. Measurement. Change.</span>
-<h1>Turn good intentions into <span>real impact.</span></h1>
-<p style="margin-top:20px;font-size:1.1rem">Impact Quotient helps individuals, businesses and communities create measurable, meaningful and lasting impact, because good intentions alone are not enough.</p>
-<div class="hb"><a href="#contact" class="btn bp">Start Your Impact &rarr;</a><a href="#score" class="btn bo">Take the Impact Check</a></div></div>
-<div class="hv fi2"><div class="globe"><div><b>IQ</b><small>Measure · Improve · Scale</small></div></div>
-<div class="fc a"><strong>Evidence Based</strong>No guesswork</div><div class="fc b"><strong>Continuously Improved</strong>Scale what works</div></div>
-</div></section>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
 
-<section id="about" class="sp"><div class="c">
-<div class="sh fi2"><h2>Why Impact Quotient?</h2><p>Impact is more than doing good. It is knowing whether what you do actually works. We close the gap between intention and lasting change.</p></div>
-<div class="grid">
-<div class="card fi2"><div class="ic">🎯</div><h3>Define Meaningful Outcomes</h3><p>Move beyond activities to the change that matters to your stakeholders.</p></div>
-<div class="card fi2"><div class="ic">📊</div><h3>Measure What Matters</h3><p>Practical indicators and honest evidence, not vanity metrics.</p></div>
-<div class="card fi2"><div class="ic">📘</div><h3>Learn and Improve</h3><p>Turn evidence and feedback into better decisions.</p></div>
-<div class="card fi2"><div class="ic">🌱</div><h3>Scale What Works</h3><p>Build clear pathways to multiply proven impact.</p></div>
-</div></div></section>
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
 
-<section class="stats"><div class="c sg">
-<div class="fi2"><h3 data-n="5">0</h3><p>Step Impact Framework</p></div><div class="fi2"><h3 data-n="6">0</h3><p>Dimensions of Impact</p></div>
-<div class="fi2"><h3 data-n="4">0</h3><p>Audiences We Serve</p></div><div class="fi2"><h3 data-n="1">0</h3><p>Goal: Change That Lasts</p></div>
-</div></section>
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <div class="logo-mark">iQ</div>
+                Impact Quotient
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#framework">Framework</a>
+                <a href="#reports">Reports</a>
+                <a href="#score">Your IQ</a>
+                <a href="#contact" class="btn btn-primary" style="padding: 10px 24px; font-size: 0.9rem;">Start Impact</a>
+            </nav>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
 
-<section id="framework" class="sp off"><div class="c">
-<div class="sh fi2"><h2>The Impact Quotient Framework</h2><p>Impact should be intentional, measurable and continuously improved.</p></div>
-<div class="steps">
-<div class="step fi2"><div class="sn">1</div><h4>Measure</h4><p>Know what is changing with practical indicators.</p></div>
-<div class="step fi2"><div class="sn">2</div><h4>Improve</h4><p>Learn from evidence and feedback loops.</p></div>
-<div class="step fi2"><div class="sn">3</div><h4>Scale</h4><p>Multiply what works across your organisation.</p></div>
-<div class="step fi2"><div class="sn">4</div><h4>Learn</h4><p>Create lasting value through continuous insight.</p></div></div>
-<div class="info fi2"><div><h4>Who it is for</h4><p style="margin:0">Teams, founders, programme leads and communities who want evidence, not guesswork.</p></div>
-<div><h4>How long it takes</h4><p style="margin:0">Start with a one-week diagnostic, then run light quarterly cycles for continuous improvement.</p></div></div>
-</div></section>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text fade-in">
+                <span class="subtitle">Purpose. Measurement. Change.</span>
+                <h1>
+                    <span class="reveal-text"><span>Turn good intentions</span></span>
+                    <span class="reveal-text"><span>into <span class="text-accent">real impact.</span></span></span>
+                </h1>
+                <p>Impact Quotient helps individuals, businesses and communities create measurable, meaningful and lasting impact, because good intentions alone are not enough.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Start Your Impact &rarr;</a>
+                    <a href="#score" class="btn btn-outline">Take the Impact Check</a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in">
+                <div class="data-viz-container">
+                    <div class="viz-ring viz-ring-1"></div>
+                    <div class="viz-ring viz-ring-2"></div>
+                    <div class="viz-ring viz-ring-3">iQ</div>
+                    <div class="viz-dot viz-dot-1"></div>
+                    <div class="viz-dot viz-dot-2"></div>
+                    <div class="viz-dot viz-dot-3"></div>
+                </div>
+                <div class="floating-stat stat-1">
+                    <div class="stat-icon"><div class="css-icon icon-target"></div></div>
+                    <div class="stat-info"><strong>92%</strong><span>Outcome Clarity</span></div>
+                </div>
+                <div class="floating-stat stat-2">
+                    <div class="stat-icon"><div class="css-icon icon-chart"></div></div>
+                    <div class="stat-info"><strong>+45%</strong><span>Impact Growth</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="services" class="sp"><div class="c">
-<div class="sh fi2"><h2>What We Do</h2><p>Practical support at every stage. Pick the support that fits.</p></div>
-<div class="grid">
-<div class="card fi2"><div class="ic">💬</div><h3>Conversation</h3><p>A free intro call to understand your goals and impact challenges.</p><a href="#contact" class="bl" data-i="Impact Strategy">Book a call &rarr;</a></div>
-<div class="card fi2"><div class="ic">🔍</div><h3>Diagnostic</h3><p>We map outcomes, data capabilities and the critical gaps.</p><a href="#contact" class="bl" data-i="Impact Measurement">Request diagnostic &rarr;</a></div>
-<div class="card fi2"><div class="ic">✏️</div><h3>Design</h3><p>Custom indicators, practical tools and a learning rhythm that works.</p><a href="#contact" class="bl" data-i="Impact Strategy">Design with us &rarr;</a></div>
-<div class="card fi2"><div class="ic">🤝</div><h3>Support</h3><p>Ongoing coaching, reviews and reporting as you scale.</p><a href="#contact" class="bl" data-i="Partnership">Get support &rarr;</a></div>
-</div></div></section>
+    <!-- WHY IQ / FEATURES -->
+    <section id="about" class="section-padding features">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Why Impact Quotient?</h2>
+                <p>Impact is more than doing good. It is knowing whether what you do actually works. We close the gap between intention and lasting change.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card tilt-card fade-in">
+                    <div class="feature-icon-wrap"><div class="css-icon icon-target"></div></div>
+                    <h3>Define Meaningful Outcomes</h3>
+                    <p>Move beyond activities to the change that actually matters to your stakeholders.</p>
+                </div>
+                <div class="feature-card tilt-card fade-in">
+                    <div class="feature-icon-wrap"><div class="css-icon icon-chart"></div></div>
+                    <h3>Measure What Matters</h3>
+                    <p>Practical indicators and honest evidence, not vanity metrics or empty reports.</p>
+                </div>
+                <div class="feature-card tilt-card fade-in">
+                    <div class="feature-icon-wrap"><div class="css-icon icon-leaf"></div></div>
+                    <h3>Learn and Improve</h3>
+                    <p>Turn evidence and feedback into better decisions and continuously improved outcomes.</p>
+                </div>
+                <div class="feature-card tilt-card fade-in">
+                    <div class="feature-icon-wrap"><div class="css-icon icon-layers"></div></div>
+                    <h3>Scale What Works</h3>
+                    <p>Build clear pathways to multiply proven impact and create lasting value.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="reports" class="sp off"><div class="c">
-<div class="sh fi2"><span class="sub">Monthly Insights</span><h2>Regional Sustainability Pulse</h2><p>Monthly reports tracking ESG and sustainability across Kenya, East Africa and the continent.</p></div>
-<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
-<div class="card rep fi2"><span class="badge">Oct 2026</span><div class="ic">📍</div><h3>Kenya Focus</h3><p>Local ESG policy, green energy transitions, carbon markets and community impact.</p><button class="bl" data-r="ke">Read the briefing &rarr;</button></div>
-<div class="card rep fi2"><span class="badge">Oct 2026</span><div class="ic">🗺️</div><h3>East Africa</h3><p>Cross-border sustainability trends, EAC climate initiatives and investment flows.</p><button class="bl" data-r="ea">Read the briefing &rarr;</button></div>
-<div class="card rep fi2"><span class="badge">Oct 2026</span><div class="ic">🌍</div><h3>Africa Continental</h3><p>Pan-African ESG benchmarks, AfCFTA impacts and continental climate trends.</p><button class="bl" data-r="af">Read the briefing &rarr;</button></div>
-</div>
-<div class="sb fi2"><div><h3>Get the Monthly Report in Your Inbox</h3><p>Join leaders and changemakers receiving our free monthly insights.</p></div>
-<form class="sf" id="subf"><input type="email" class="fcn" placeholder="Your email address" required aria-label="Email"><button class="btn bp">Subscribe</button></form></div>
-</div></section>
+    <!-- STATS -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item fade-in"><h3 class="counter" data-target="5">0</h3><p>Step Impact Framework</p></div>
+                <div class="stat-item fade-in"><h3 class="counter" data-target="6">0</h3><p>Dimensions of Impact</p></div>
+                <div class="stat-item fade-in"><h3 class="counter" data-target="4">0</h3><p>Audiences We Serve</p></div>
+                <div class="stat-item fade-in"><h3 class="counter" data-target="1">0</h3><p>Goal: Change That Lasts</p></div>
+            </div>
+        </div>
+    </section>
 
-<section id="score" class="sp"><div class="c"><div class="iq fi2">
-<h2>Check Your Impact Quotient</h2>
-<p>Rate your initiative honestly on each dimension. This is a self-assessment for reflection, not an audit.</p>
-<div id="sls"></div>
-<button class="btn bw" id="calc" style="margin-top:20px">Calculate My IQ</button>
-<div id="res"><div class="big" id="sc">0</div><p id="lv" style="font-weight:700;color:#fff;margin:6px 0 16px"></p><div id="bars" style="text-align:left"></div><p id="adv"></p>
-<a href="#contact" class="btn bp" id="sendsc">Discuss My Score &rarr;</a></div>
-</div></div></section>
+    <!-- FRAMEWORK -->
+    <section id="framework" class="section-padding framework">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>The Impact Quotient Framework</h2>
+                <p>From intention to measurable change. Impact should be intentional, measurable and continuously improved.</p>
+            </div>
+            <div class="framework-steps">
+                <div class="step-card fade-in"><div class="step-number">1</div><h4>Measure</h4><p>Know what is changing with practical indicators.</p></div>
+                <div class="step-card fade-in"><div class="step-number">2</div><h4>Improve</h4><p>Learn from evidence and feedback loops.</p></div>
+                <div class="step-card fade-in"><div class="step-number">3</div><h4>Scale</h4><p>Multiply what works across your organisation.</p></div>
+                <div class="step-card fade-in"><div class="step-number">4</div><h4>Learn</h4><p>Create lasting value through continuous insight.</p></div>
+            </div>
+        </div>
+    </section>
 
-<section class="sp off" style="text-align:center"><div class="c fi2" style="max-width:800px"><h2 style="font-style:italic;font-weight:400">"Good intentions start the journey. Measurable action creates the difference."</h2><p style="color:var(--pg);font-weight:600">— Impact Quotient Philosophy</p></div></section>
+    <!-- MONTHLY REPORTS -->
+    <section id="reports" class="section-padding reports">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="subtitle" style="background: rgba(90, 158, 75, 0.1); padding: 8px 16px; border-radius: 30px; display: inline-flex; align-items: center; gap: 8px; font-weight: 600; color: var(--primary-green); text-transform: uppercase; letter-spacing: 0.15em; font-size: 0.8rem; margin-bottom: 24px;"><span style="width: 8px; height: 8px; background: var(--accent-green); border-radius: 50%; animation: pulse-dot 2s infinite;"></span>Monthly Insights</span>
+                <h2>Regional Sustainability Pulse</h2>
+                <p>Championing ESG and sustainability across the continent. We release comprehensive monthly reports tracking the pulse of impact in Kenya, East Africa, and the broader African landscape.</p>
+            </div>
 
-<section id="faq" class="sp"><div class="c"><div class="sh fi2"><h2>Frequently Asked Questions</h2></div><div class="faq fi2" id="faql"></div></div></section>
+            <div class="reports-grid">
+                <div class="report-card tilt-card fade-in">
+                    <div class="report-badge">Latest: Oct 2026</div>
+                    <div class="report-icon-wrap"><div class="css-icon icon-target" style="border-color: var(--primary-dark);"></div></div>
+                    <h3>Kenya Focus</h3>
+                    <p>Deep dive into local ESG policies, green energy transitions, carbon markets, and community impact metrics.</p>
+                    <a href="#" class="btn-link">Read October Report &rarr;</a>
+                </div>
+                <div class="report-card tilt-card fade-in">
+                    <div class="report-badge">Latest: Oct 2026</div>
+                    <div class="report-icon-wrap"><div class="css-icon icon-layers" style="border-color: var(--primary-dark);"></div></div>
+                    <h3>East Africa</h3>
+                    <p>Cross-border sustainability trends, EAC climate initiatives, regional investment flows, and shared ecosystems.</p>
+                    <a href="#" class="btn-link">Read October Report &rarr;</a>
+                </div>
+                <div class="report-card tilt-card fade-in">
+                    <div class="report-badge">Latest: Oct 2026</div>
+                    <div class="report-icon-wrap"><div class="css-icon icon-chart" style="border-color: var(--primary-dark);"></div></div>
+                    <h3>Africa Continental</h3>
+                    <p>Pan-African ESG benchmarks, AfCFTA sustainability impacts, continental climate data, and macro trends.</p>
+                    <a href="#" class="btn-link">Read October Report &rarr;</a>
+                </div>
+            </div>
 
-<section id="contact" class="sp off"><div class="c">
-<div class="sh fi2"><h2>Ready to create better impact?</h2><p>Tell us what you are trying to achieve and we will respond within two working days.</p></div>
-<div class="cg">
-<div class="fi2"><h3>Connect With Us</h3>
-<div class="cm"><div class="ic" style="margin:0">✉️</div><div><strong style="display:block">Email Us</strong><a href="mailto:hello@impactquotient.org" style="color:var(--pg)">hello@impactquotient.org</a></div></div>
-<div class="cm"><div class="ic" style="margin:0">🌿</div><div><strong style="display:block">Focus Areas</strong><span style="font-size:.9rem;color:var(--tm)">Impact • Sustainability • Innovation • Responsible Business</span></div></div></div>
-<form class="cf fi2" id="cf">
-<div class="fg"><label for="name">Full Name</label><input id="name" class="fcn" required></div>
-<div class="fg"><label for="email">Email Address</label><input type="email" id="email" class="fcn" required></div>
-<div class="fg"><label for="org">Organisation</label><input id="org" class="fcn"></div>
-<div class="fg"><label for="interest">I am interested in</label><select id="interest" class="fcn"><option>Impact Strategy</option><option>Sustainability</option><option>ESG &amp; Responsible Business</option><option>Community Impact</option><option>Impact Measurement</option><option>Partnership</option><option>Other</option></select></div>
-<div class="fg"><label for="message">Tell us about your impact challenge</label><textarea id="message" class="fcn" required></textarea></div>
-<button class="btn bp" style="width:100%">Send Message &rarr;</button>
-<p style="font-size:.8rem;text-align:center;margin:14px 0 0">Your email app will open with the message ready to send.</p></form>
-</div></div></section>
+            <div class="subscribe-box fade-in">
+                <div class="subscribe-content">
+                    <h3>Get the Monthly Report in Your Inbox</h3>
+                    <p>Join leaders, policymakers, and changemakers receiving our free monthly sustainability insights.</p>
+                </div>
+                <form class="subscribe-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
+                    <input type="email" placeholder="Enter your email address" class="form-control" required>
+                    <button type="submit" class="btn btn-primary" style="background: var(--accent-green);">Subscribe Free</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-<footer><div class="c"><div class="fgr">
-<div><a href="#top0" class="logo" style="color:#fff"><div class="li" style="background:#fff;color:var(--pd)">iQ</div>Impact Quotient</a><p style="margin-top:14px;max-width:300px">Helping individuals, businesses and communities turn good intentions into measurable, lasting impact.</p></div>
-<div><h4>Explore</h4><ul><li><a href="#about">About</a></li><li><a href="#framework">Framework</a></li><li><a href="#services">Services</a></li><li><a href="#reports">Reports</a></li></ul></div>
-<div><h4>Focus</h4><ul><li><a href="#contact" data-i="Sustainability">Sustainability</a></li><li><a href="#contact" data-i="ESG &amp; Responsible Business">ESG</a></li><li><a href="#contact" data-i="Impact Measurement">Impact Measurement</a></li></ul></div>
-<div><h4>Connect</h4><ul><li><a href="#contact">Contact</a></li><li><a href="mailto:hello@impactquotient.org">Email us</a></li><li><a href="https://www.linkedin.com/search/results/companies/?keywords=Impact%20Quotient" target="_blank" rel="noopener">LinkedIn</a></li></ul></div>
-</div><div class="fb"><p>&copy; <span id="yr">2026</span> Impact Quotient. All rights reserved.</p><p>Measure. Improve. Multiply Impact.</p></div></div></footer>
+    <!-- INTERACTIVE TOOL -->
+    <section id="score" class="container">
+        <div class="iq-tool fade-in">
+            <h2>Check Your Impact Quotient</h2>
+            <p>Your Impact Quotient is about more than a number. It is a way of seeing whether resources, decisions and actions turn into meaningful outcomes.</p>
+            <div class="iq-dimensions">
+                <div class="dim-item"><div class="dim-circle">IQ</div><span>Measure</span></div>
+                <div class="dim-item"><div class="dim-circle">IQ</div><span>Improve</span></div>
+                <div class="dim-item"><div class="dim-circle">IQ</div><span>Scale</span></div>
+                <div class="dim-item"><div class="dim-circle">IQ</div><span>Learn</span></div>
+            </div>
+            <a href="#contact" class="btn btn-primary" style="background: white; color: var(--primary-dark); margin-top: 20px;">Take the Impact Check &rarr;</a>
+        </div>
+    </section>
 
-<div class="md" id="md"><div class="mb"><button class="x" id="mx" aria-label="Close">&times;</button><div id="mc"></div></div></div>
-<button id="top" aria-label="Back to top">↑</button><div id="toast"></div>
-<button id="fab" aria-label="Ask IQ Assistant">💬</button>
-<div id="bot"><header><span>IQ Assistant</span><button id="bx" style="background:none;border:0;color:#fff;font-size:1.3rem;cursor:pointer">&times;</button></header>
-<div id="msgs"></div><div class="q" id="qs"></div>
-<form id="bf"><input id="bi" placeholder="Ask about our services…" autocomplete="off"><button>Send</button></form></div>
+    <!-- FAQ -->
+    <section id="faq" class="section-padding" style="background: var(--bg-off);">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-container fade-in">
+                <div class="faq-item">
+                    <div class="faq-question">What does Impact Quotient actually do?<div class="faq-icon"></div></div>
+                    <div class="faq-answer"><p>We help you define the change you want, choose practical indicators, gather evidence, learn from it and scale what works, for individuals, businesses and communities.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Do we need lots of data to start?<div class="faq-icon"></div></div>
+                    <div class="faq-answer"><p>No. Most clients begin with very little. We start with a few meaningful indicators and build from there, focusing on quality of insight over quantity of data.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Is this only for large organisations?<div class="faq-icon"></div></div>
+                    <div class="faq-answer"><p>Not at all. Individuals, small businesses, community groups and changemakers are central to who we serve. Our framework scales to your size.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">How is this different from ESG or sustainability reporting?<div class="faq-icon"></div></div>
+                    <div class="faq-answer"><p>Reporting describes what happened. We focus on learning and improvement, so reports become decisions, and decisions become better outcomes.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<script>
-const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
-const toast=t=>{const e=$('#toast');e.textContent=t;e.style.display='block';clearTimeout(e._t);e._t=setTimeout(()=>e.style.display='none',3500)};
-const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const store={get(k,d){try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
-$('#yr').textContent=new Date().getFullYear();
-/* nav */
-$('#mt').onclick=()=>$('#nl').classList.toggle('on');
-$$('#nl a').forEach(a=>a.addEventListener('click',()=>$('#nl').classList.remove('on')));
-const secs=$$('section[id]'),links=$$('#nl a[href^="#"]:not(.btn)');
-addEventListener('scroll',()=>{
-const h=document.documentElement;$('#prog').style.width=(scrollY/(h.scrollHeight-innerHeight)*100)+'%';
-$('#top').style.display=scrollY>600?'block':'none';
-let cur='';secs.forEach(s=>{if(scrollY>=s.offsetTop-120)cur=s.id});
-links.forEach(l=>l.classList.toggle('on',l.getAttribute('href')==='#'+cur));
-},{passive:true});
-$('#top').onclick=()=>scrollTo({top:0,behavior:'smooth'});
-/* reveal + counters */
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add('v');
-const n=e.target.querySelector('[data-n]');if(n&&!n.dataset.d){n.dataset.d=1;const t=+n.dataset.n;let c=0;const f=()=>{c+=t/90;if(c<t){n.textContent=Math.ceil(c);requestAnimationFrame(f)}else n.textContent=t};f()}
-io.unobserve(e.target)}),{threshold:.1});
-$$('.fi2').forEach(e=>io.observe(e));
-/* prefill contact interest from buttons */
-const setInt=v=>{const s=$('#interest');[...s.options].some(o=>o.text===v&&(s.value=o.value,1))};
-$$('[data-i]').forEach(a=>a.addEventListener('click',()=>setInt(a.dataset.i.replace('&amp;','&'))));
-/* modal + reports */
-const R={ke:['Kenya Focus — October 2026',['Carbon markets: demand for credible, community-benefiting credits continues to shape project design.','Green energy: geothermal, wind and solar remain the backbone of Kenya\'s clean power story.','Disclosure: more firms are moving toward structured ESG reporting aligned to international standards.','What to watch: how local-content and benefit-sharing expectations evolve for climate projects.']],
-ea:['East Africa — October 2026',['Regional climate initiatives increasingly link energy, agriculture and water planning.','Cross-border investment is favouring renewable energy and climate-smart agriculture.','Shared ecosystems such as Lake Victoria and the Rift Valley need joint, evidence-based management.','What to watch: harmonised sustainability standards across the EAC.']],
-af:['Africa Continental — October 2026',['ESG benchmarking is maturing as investors ask for comparable, decision-useful data.','AfCFTA creates both opportunity and responsibility for sustainable trade and supply chains.','Climate finance and adaptation remain central to continental development agendas.','What to watch: data quality, and whether reporting converts into improved outcomes.']]};
-const modal=h=>{$('#mc').innerHTML=h;$('#md').classList.add('o')};
-$$('[data-r]').forEach(b=>b.onclick=()=>{const[r,l]=R[b.dataset.r];modal('<h3>'+r+'</h3><p style="font-size:.9rem">Briefing summary. Subscribe to receive the full report each month.</p><ul>'+l.map(x=>'<li>'+x+'</li>').join('')+'</ul><button class="btn bp" id="mm">Get the full report</button>');
-$('#mm').onclick=()=>{$('#md').classList.remove('o');location.hash='#reports';$('#subf input').focus()}});
-$('#mx').onclick=()=>$('#md').classList.remove('o');$('#md').onclick=e=>{if(e.target.id==='md')e.target.classList.remove('o')};
-addEventListener('keydown',e=>{if(e.key==='Escape')$('#md').classList.remove('o')});
-/* subscribe */
-$('#subf').onsubmit=e=>{e.preventDefault();const em=e.target.querySelector('input').value.trim();
-const l=store.get('iq_subs',[]);if(l.includes(em)){toast('You are already subscribed.');return}
-l.push(em);store.set('iq_subs',l);e.target.reset();
-toast('Thanks! Confirm by emailing us to complete signup.');
-open('mailto:hello@impactquotient.org?subject='+encodeURIComponent('Subscribe: Monthly Sustainability Report')+'&body='+encodeURIComponent('Please add me to the Monthly Report list: '+em),'_self')};
-/* contact */
-$('#cf').onsubmit=e=>{e.preventDefault();const g=i=>$('#'+i).value.trim();
-const body=`Name: ${g('name')}\nEmail: ${g('email')}\nOrganisation: ${g('org')}\nInterest: ${g('interest')}\n\n${g('message')}`+(window._iq?`\n\nMy Impact Quotient: ${window._iq}/100`:'');
-open('mailto:hello@impactquotient.org?subject='+encodeURIComponent('Enquiry: '+g('interest'))+'&body='+encodeURIComponent(body),'_self');toast('Opening your email app…')};
-/* impact check */
-const D=[['Measure','Do you track clear indicators of the change you create?','You rely on activity counts. Start with 3 outcome indicators tied to real stakeholder change.'],
-['Improve','Do evidence and feedback change your decisions?','Set a simple quarterly review where findings lead to one concrete change.'],
-['Scale','Do you know which parts of your work deserve to grow?','Identify your strongest-performing activity and document how to repeat it.'],
-['Learn','Do you capture and share what you are learning?','Create a lightweight learning log and share lessons with your team and stakeholders.']];
-$('#sls').innerHTML=D.map((d,i)=>`<div class="sl"><label for="d${i}"><span>${d[0]}: <small style="font-weight:400;opacity:.8">${d[1]}</small></span><b id="v${i}">3</b></label><input type="range" id="d${i}" min="1" max="5" value="3"></div>`).join('');
-D.forEach((_,i)=>$('#d'+i).oninput=e=>$('#v'+i).textContent=e.target.value);
-$('#calc').onclick=()=>{const v=D.map((_,i)=>+$('#d'+i).value),s=Math.round(v.reduce((a,b)=>a+b,0)/20*100);window._iq=s;
-const lv=s>=80?'Impact Leader':s>=60?'Building Momentum':s>=40?'Getting Started':'Early Stage';
-$('#res').style.display='block';$('#lv').textContent=lv;
-let n=0;const t=setInterval(()=>{n+=2;if(n>=s){n=s;clearInterval(t)}$('#sc').textContent=n},20);
-$('#bars').innerHTML=D.map((d,i)=>`<div>${d[0]} <small>(${v[i]}/5)</small><div class="bar"><i style="width:0" data-w="${v[i]*20}%"></i></div></div>`).join('');
-setTimeout(()=>$$('#bars i').forEach(b=>b.style.width=b.dataset.w),50);
-const w=v.indexOf(Math.min(...v));$('#adv').textContent='Your biggest opportunity is "'+D[w][0]+'". '+D[w][2];
-$('#res').scrollIntoView({behavior:'smooth',block:'nearest'})};
-$('#sendsc').onclick=()=>{$('#message').value='My Impact Quotient is '+window._iq+'/100. I would like to discuss: ';setInt('Impact Measurement')};
-/* faq */
-const F=[['What does Impact Quotient actually do?','We help you define the change you want, choose practical indicators, gather evidence, learn from it and scale what works.'],
-['Do we need lots of data to start?','No. Most clients begin with very little. We start with a few meaningful indicators and build from there.'],
-['Is this only for large organisations?','Not at all. Individuals, small businesses, community groups and changemakers are central to who we serve.'],
-['How is this different from ESG or sustainability reporting?','Reporting describes what happened. We focus on learning and improvement, so reports become decisions. We can also support ESG alignment.'],
-['How do I get started?','Use the contact form, or run the Impact Check and send us your score.']];
-$('#faql').innerHTML=F.map(f=>`<div class="fi"><button class="fq">${f[0]}<span>+</span></button><div class="fa"><p>${f[1]}</p></div></div>`).join('');
-$$('.fq').forEach(q=>q.onclick=()=>{const i=q.parentElement,o=i.classList.contains('on');$$('.fi').forEach(x=>x.classList.remove('on'));if(!o)i.classList.add('on')});
-/* assistant */
-const KB=[[/price|cost|fee|how much/,'Pricing depends on scope. The first conversation is free, and a diagnostic is the usual starting point. Share your needs via the contact form for a tailored quote.'],
-[/diagnos/,'The diagnostic maps your outcomes, data capabilities and gaps, typically in about a week.'],
-[/service|offer|help|what do you do/,'We offer four stages: Conversation, Diagnostic, Design and Support. Which fits where you are?'],
-[/framework|measure|improve|scale|learn/,'Our framework has four steps: Measure, Improve, Scale and Learn, run in light quarterly cycles.'],
-[/esg|sustainab|report/,'We publish monthly Kenya, East Africa and Africa reports, and can support ESG alignment. Check the Reports section to read or subscribe.'],
-[/score|quotient|check|assess/,'Try the Impact Check: rate four dimensions and get a score with tailored advice.'],
-[/contact|email|reach|talk|call|book/,'Email hello@impactquotient.org or use the contact form below. We respond within two working days.'],
-[/small|large|individual|who/,'We serve individuals, small businesses, communities and large organisations. The framework scales to your size.'],
-[/kenya|africa|where|location/,'We focus on Kenya, East Africa and the wider African context, and work with partners remotely.'],
-[/hi|hello|hey/,'Hello! I can tell you about our services, framework, reports or how to get started.']];
-const add=(t,c)=>{const m=document.createElement('div');m.className='m '+c;m.textContent=t;$('#msgs').append(m);$('#msgs').scrollTop=1e9};
-const ask=q=>{add(q,'u');const l=q.toLowerCase(),h=KB.find(k=>k[0].test(l));
-setTimeout(()=>{add(h?h[1]:'I am not sure about that one. Our team can answer it directly: hello@impactquotient.org','b')},350)};
-$('#fab').onclick=()=>{$('#bot').classList.toggle('o');if(!$('#msgs').children.length)add('Hi! I am the IQ Assistant. How can I help?','b')};
-$('#bx').onclick=()=>$('#bot').classList.remove('o');
-$('#qs').innerHTML=['Services','Pricing','Get started','Impact Check'].map(t=>`<button type="button">${t}</button>`).join('');
-$$('#qs button').forEach(b=>b.onclick=()=>ask(b.textContent==='Get started'?'how to contact':b.textContent));
-$('#bf').onsubmit=e=>{e.preventDefault();const v=$('#bi').value.trim();if(v){ask(v);$('#bi').value=''}};
-</script>
+    <!-- CONTACT -->
+    <section id="contact" class="section-padding contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Ready to create better impact?</h2>
+                <p>Let's turn purpose into progress. Start a conversation about how Impact Quotient can help you define, measure and improve the impact you create.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info fade-in">
+                    <h3>Connect With Us</h3>
+                    <p>Have an impact challenge? Tell us what you are trying to achieve, whether a business initiative, community programme, personal impact journey or sustainability challenge.</p>
+                    <div class="contact-method">
+                        <div class="contact-method-icon"><div class="css-icon icon-target"></div></div>
+                        <div><strong style="display: block; color: var(--primary-dark); font-family: 'Space Grotesk';">Email Us</strong><a href="mailto:hello@impactquotient.org" style="color: var(--primary-green); font-weight: 500;">hello@impactquotient.org</a></div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-method-icon"><div class="css-icon icon-leaf"></div></div>
+                        <div><strong style="display: block; color: var(--primary-dark); font-family: 'Space Grotesk';">Focus Areas</strong><span style="font-size: 0.9rem; color: var(--text-muted);">Impact • Sustainability • Innovation • Responsible Business</span></div>
+                    </div>
+                </div>
+                <form class="contact-form fade-in" onsubmit="event.preventDefault(); alert('Thank you!');">
+                    <div class="form-group"><label for="name">Full Name</label><input type="text" id="name" class="form-control" required></div>
+                    <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" class="form-control" required></div>
+                    <div class="form-group"><label for="org">Organisation</label><input type="text" id="org" class="form-control"></div>
+                    <div class="form-group"><label for="interest">I am interested in</label>
+                        <select id="interest" class="form-control">
+                            <option value="Impact Strategy">Impact Strategy</option>
+                            <option value="Sustainability">Sustainability</option>
+                            <option value="ESG & Responsible Business">ESG & Responsible Business</option>
+                            <option value="Community Impact">Community Impact</option>
+                        </select>
+                    </div>
+                    <div class="form-group"><label for="message">Tell us about your impact challenge</label><textarea id="message" class="form-control" required></textarea></div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message &rarr;</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo" style="color: white;"><div class="logo-mark" style="background: white; color: var(--primary-dark);">iQ</div>Impact Quotient</a>
+                    <p>Helping individuals, businesses and communities turn good intentions into measurable, meaningful and lasting impact.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul><li><a href="#about">About</a></li><li><a href="#framework">Our Framework</a></li><li><a href="#reports">Monthly Reports</a></li></ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Focus</h4>
+                    <ul><li><a href="#">Sustainability</a></li><li><a href="#">ESG</a></li><li><a href="#">Impact Measurement</a></li></ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <ul><li><a href="#contact">Contact</a></li><li><a href="mailto:hello@impactquotient.org">Email us</a></li><li><a href="#">LinkedIn</a></li></ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Impact Quotient. All rights reserved. Measure. Improve. Multiply Impact.</p>
+                <div class="social-links">
+                    <a href="#">in</a>
+                    <a href="#">ig</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        // --- Custom Cursor ---
+        const cursorDot = document.querySelector('.cursor-dot');
+        const cursorOutline = document.querySelector('.cursor-outline');
+        let mouseX = 0, mouseY = 0;
+        let outlineX = 0, outlineY = 0;
+
+        window.addEventListener('mousemove', (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+            cursorDot.style.left = `${mouseX}px`;
+            cursorDot.style.top = `${mouseY}px`;
+        });
+
+        function animateCursor() {
+            outlineX += (mouseX - outlineX) * 0.15;
+            outlineY += (mouseY - outlineY) * 0.15;
+            cursorOutline.style.left = `${outlineX}px`;
+            cursorOutline.style.top = `${outlineY}px`;
+            requestAnimationFrame(animateCursor);
+        }
+        animateCursor();
+
+        // Hover effect for cursor
+        document.querySelectorAll('a, button, .tilt-card, .faq-question, .dim-circle').forEach(el => {
+            el.addEventListener('mouseenter', () => cursorOutline.classList.add('hover'));
+            el.addEventListener('mouseleave', () => cursorOutline.classList.remove('hover'));
+        });
+
+        // --- Scroll Progress Bar ---
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById('scrollProgress').style.width = scrolled + "%";
+        });
+
+        // --- Mobile Menu ---
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navLinks = document.getElementById('navLinks');
+        mobileToggle.addEventListener('click', () => { navLinks.classList.toggle('active'); });
+        document.querySelectorAll('.nav-links a').forEach(link => { link.addEventListener('click', () => { navLinks.classList.remove('active'); }); });
+
+        // --- FAQ Accordion ---
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                const isActive = item.classList.contains('active');
+                document.querySelectorAll('.faq-item').forEach(faq => { faq.classList.remove('active'); });
+                if (!isActive) { item.classList.add('active'); }
+            });
+        });
+
+        // --- Scroll Animations & Text Reveal ---
+        const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    
+                    // Trigger text reveal
+                    const revealTexts = entry.target.querySelectorAll('.reveal-text span');
+                    revealTexts.forEach((span, index) => {
+                        setTimeout(() => { span.style.transform = 'translateY(0)'; }, index * 150);
+                    });
+
+                    // Trigger counters
+                    if (entry.target.classList.contains('counter') || entry.target.querySelector('.counter')) {
+                        animateCounters(entry.target);
+                    }
+                }
+            });
+        }, observerOptions);
+        document.querySelectorAll('.fade-in').forEach(el => { observer.observe(el); });
+
+        // --- Counter Animation ---
+        function animateCounters(element) {
+            const counters = element.classList.contains('counter') ? [element] : element.querySelectorAll('.counter');
+            counters.forEach(counter => {
+                if (counter.dataset.animated) return;
+                counter.dataset.animated = true;
+                const target = +counter.getAttribute('data-target');
+                const duration = 2000;
+                const increment = target / (duration / 16);
+                let current = 0;
+                const updateCounter = () => {
+                    current += increment;
+                    if (current < target) { counter.innerText = Math.ceil(current); requestAnimationFrame(updateCounter); }
+                    else { counter.innerText = target; }
+                };
+                updateCounter();
+            });
+        }
+
+        // --- 3D Tilt Effect for Cards ---
+        if (window.innerWidth > 768) {
+            document.querySelectorAll('.tilt-card').forEach(card => {
+                card.addEventListener('mousemove', (e) => {
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    const centerX = rect.width / 2;
+                    const centerY = rect.height / 2;
+                    const rotateX = ((y - centerY) / centerY) * -8;
+                    const rotateY = ((x - centerX) / centerX) * 8;
+                    card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+                });
+                card.addEventListener('mouseleave', () => { 
+                    card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) scale3d(1, 1, 1)'; 
+                });
+            });
+        }
+    </script>
 </body>
 </html>
